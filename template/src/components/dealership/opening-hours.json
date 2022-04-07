@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_dealership_opening_hours",
+  "info": {
+    "displayName": "OpeningHours",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "OpeningHours": {
+      "displayName": "OpeningHour",
+      "type": "component",
+      "repeatable": false,
+      "component": "dealership.opening-hour"
+    }
+  }
+}
