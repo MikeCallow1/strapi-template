@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_dealership_opening_hours",
+  "info": {
+    "displayName": "OpeningHour",
+    "icon": "calendar-week"
+  },
+  "options": {},
+  "attributes": {
+    "Day": {
+      "type": "enumeration",
+      "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "required": true
+    },
+    "IsOpen": {
+      "type": "boolean"
+    },
+    "Open": {
+      "type": "time",
+      "default": "09:00"
+    },
+    "Close": {
+      "type": "time",
+      "default": "17:30"
+    }
+  }
+}
